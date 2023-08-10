@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(22.5deg, rgb(167, 230, 235) 0%, rgb(235, 121, 144)  50%, rgb(210, 231, 152) 20%);
+}
+.Quiz-Container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px 2px rgb(red, green, blue); */
+}
+.Quiz-Header{
+    padding:4rem
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding:0
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: aqua;
+    border: none;
+    width: 100%;
+    cursor:pointer;
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.3rem;
+}
+button:hover{
+    background-color: blue;
+}
